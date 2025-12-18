@@ -24,7 +24,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/Ali-belkadhi/pipeline.git'
+                    url: 'https://github.com/Ali-belkadhi/dev2.git'
                 echo "✅ Code récupéré depuis GitHub"
             }
         }
